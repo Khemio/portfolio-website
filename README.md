@@ -1,2 +1,2 @@
-# portfolio-website
+# KhemioDev portfolio
 Personal portfolio
