@@ -1,0 +1,51 @@
+/* Global styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+.work-links {
+    display: flex ; 
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+
+    li {
+        transition: all 1s ease;
+    }
+
+    .btn {
+        background: #6700EE;
+        color: white;
+        padding: .5em 1em;
+        border-radius: 6em;
+        transition: all 1s ease;
+    }
+}

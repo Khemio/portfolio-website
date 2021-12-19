@@ -1,0 +1,61 @@
+/* Skills section */
+.skills {
+    background: #FF64CB;
+}
+
+.skills-container ul li {
+    background: white;
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+
+    .icon-container {
+        height: 100px;
+        display: grid;
+        place-content: center;
+        margin: 0 auto;
+        
+        &.one {
+            width: 60px;
+        }
+        &.two {
+            width: 70px;
+        }
+        &.three {
+            width: 60px;
+        }
+    }
+
+    .skill-title {
+        font-weight: bold;
+    }
+    .featured-desc {
+        margin-bottom: 2em;
+    }
+}
+
+/* Triangle SVG Animation */
+#dark1,
+#light1,
+#dark2 {
+    transition: all 1s ease-in-out;
+}
+
+#dark2 {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#anim-icon:hover #light1 {
+    transform: translateX(20%);
+}
+
+#anim-icon:hover #dark1 {
+    transform: translateX(40%);
+    opacity: 0;
+}
+
+#anim-icon:hover #dark2 {
+    transform: translateX(0%);
+    opacity: 0.7;
+}

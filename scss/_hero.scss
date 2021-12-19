@@ -1,0 +1,49 @@
+/* Hero section */
+.hero {
+    background: #6E00FF;
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 4em;
+}
+
+.meet {
+    display: flex;
+    margin: 0 auto;
+    width: 200px;
+    font-weight: bold;
+    color: #FF64CB;
+
+    span {
+        color: white;
+        // margin-top: 1em;
+        margin-right: 0.5em;
+    }
+}
+
+.scroll {
+    width: 30px;
+    margin-top: 2em;
+}
+
+section {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+/* Sroll animation */
+#inner {
+    animation: circleAnim 1s infinite alternate-reverse;
+}
+
+@keyframes circleAnim {
+    from {
+        transform: translate(0px, 0px);
+        z-index: 5;
+    }
+
+    to {
+        transform: translate(0px, 32px);
+        z-index: 5;
+    }
+}

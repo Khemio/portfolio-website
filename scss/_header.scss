@@ -1,0 +1,34 @@
+/* Header */
+.nav-container {
+    background: #6700EE;
+
+    a {
+        color: white;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+    .logo {
+        color: #00F7FF;
+        font-weight: bold;
+    }
+
+    ul {
+        display: flex;
+
+        a {
+            display: block;
+            padding: 0 1em;
+        }
+    }
+    
+}
+
+.social-header,
+.hero-design {
+    display: none;
+}
