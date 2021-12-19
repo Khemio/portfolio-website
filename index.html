@@ -252,17 +252,22 @@
                         <span class="circle one"></span>
                         <span class="circle two"></span>
         
-                        <form name="contact" method="POST" data-netlify="true">
+                        <form action="index.html" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+
+                            <p class="hidden">
+                                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                            </p>
+
                             <h3 class="title">Contact Us</h3>
         
                             <div class="input-container">
-                                <input type="text" name="name" class="input">
+                                <input type="text" name="name" class="input" required>
                                 <label for="name">Name</label>
                                 <span>Name</span>
                             </div>
         
                             <div class="input-container">
-                                <input type="email" name="email" class="input">
+                                <input type="email" name="email" class="input" required>
                                 <label for="email">Email</label>
                                 <span>Email</span>
                             </div>
