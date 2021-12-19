@@ -33,6 +33,10 @@ img {
   width: 100%;
 }
 
+.hidden {
+  display: none;
+}
+
 .work-links {
   display: -webkit-box;
   display: -ms-flexbox;
