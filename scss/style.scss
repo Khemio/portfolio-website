@@ -9,26 +9,26 @@
 @import 'form';
 @import 'footer';
 
-::-webkit-scrollbar {
-    width: 1em;;
-}
-::-webkit-scrollbar-track {
-    background: linear-gradient(#6700EE, #00F7FF, #6E00FF);
-    border-radius: 100vw;
-    margin-block: 0.25em;
-}
+// ::-webkit-scrollbar {
+//     width: 1em;;
+// }
+// ::-webkit-scrollbar-track {
+//     background: linear-gradient(#6700EE, #00F7FF, #6E00FF);
+//     border-radius: 100vw;
+//     margin-block: 0.25em;
+// }
 
-::-webkit-scrollbar-thumb {
-    background: #FF64CB;
-    border-radius: 100vw;
-}
+// ::-webkit-scrollbar-thumb {
+//     background: #FF64CB;
+//     border-radius: 100vw;
+// }
 
-@supports(scrollbar-color: red blue) {
-    * {
-        scrollbar-color: #FF64CB #6700EE;
-        scrollbar-width: thin;
-    }
-}
+// @supports(scrollbar-color: red blue) {
+//     * {
+//         scrollbar-color: #FF64CB #6700EE;
+//         scrollbar-width: thin;
+//     }
+// }
 
 /* Portfolio section */
 .portfolio {

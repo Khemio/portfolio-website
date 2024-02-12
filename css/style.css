@@ -808,7 +808,7 @@ footer a {
   display: none;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 1em;
 }
 
@@ -829,7 +829,7 @@ footer a {
     scrollbar-color: #FF64CB #6700EE;
     scrollbar-width: thin;
   }
-}
+} */
 /* Portfolio section */
 .portfolio {
   background: #f7f7f7;
